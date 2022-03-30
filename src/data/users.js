@@ -23,4 +23,14 @@ export const users = [
     name: 'Wodzisła Wielki',
     average: '3.5',
   },
+  {
+    name: 'Czesiu Wybawca',
+    attendance: '100%',
+    average: '5.0',
+  },
+  {
+    name: 'Paolo Zdrajca',
+    attendance: '0%',
+    average: '2.0',
+  },
 ];

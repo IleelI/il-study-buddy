@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51d2958c-3d79-4d77-8f49-a105c25ecb92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UsersList/UsersList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UsersListItem/UsersListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+    <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/delete-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/globalStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Average/Average.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Average/Average.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Root.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UsersList/UsersList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UsersListItem/UsersListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,10 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components " />
-      <recent name="$PROJECT_DIR$/src/components /UsersList" />
+      <recent name="$PROJECT_DIR$/src/components/atoms/" />
+      <recent name="$PROJECT_DIR$/src/components/atoms/Button/Grade" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/components/organisms" />
+      <recent name="$PROJECT_DIR$/src/components/molecules" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
