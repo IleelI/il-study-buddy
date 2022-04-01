@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/delete-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/globalStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Average/Average.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Average/Average.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Root.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersList/UsersList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersListItem/UsersListItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +25,11 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,6 +48,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -71,10 +57,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,13 +77,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="51d2958c-3d79-4d77-8f49-a105c25ecb92" name="Changes" comment="" />
+      <changelist id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="" />
       <created>1648622588110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648622588110</updated>
       <workItem from="1648622589632" duration="1242000" />
       <workItem from="1648660566819" duration="3767000" />
+      <workItem from="1648708212386" duration="50000" />
+      <workItem from="1648748018767" duration="4359000" />
     </task>
     <servers />
   </component>
