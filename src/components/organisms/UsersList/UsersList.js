@@ -1,34 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
 import { StyledList } from './UsersList.styles';
-import { ViewWrapper } from '../../atoms/ViewWrapper/ViewWrapper';
-import { StyledTitle } from '../../atoms/StyledTitle/StyledTitle';
-import UsersListItem from '../../molecules/UsersListItem/UsersListItem';
-import PropTypes from 'prop-types';
+import { Title } from 'components/atoms/Title/Title';
+import { UsersContext } from 'providers/UsersProvider';
 
-const UsersList = ({ users, deleteUser }) => {
+const UsersList = () => {
+  const { users } = useContext(UsersContext);
   return (
     <>
-      <ViewWrapper>
-        <StyledTitle>Students list</StyledTitle>
-        <StyledList>
-          {users.map((userData) => (
-            <UsersListItem deleteUser={deleteUser} key={userData.name} userData={userData} />
-          ))}
-        </StyledList>
-      </ViewWrapper>
+      <Title>Students list</Title>
+      <StyledList>
+        {users.map((userData) => (
+          <UsersListItem key={userData.name} userData={userData} />
+        ))}
+      </StyledList>
     </>
   );
-};
-
-UsersList.propTypes = {
-  deleteUser: PropTypes.func.isRequired,
-  users: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      average: PropTypes.string.isRequired,
-      attendance: PropTypes.string,
-    })
-  ),
 };
 
 export default UsersList;

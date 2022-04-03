@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/DeleteButton/DeleteButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Input/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Label/Label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/RouterLink/RouterLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/StyledTitle/StyledTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/ViewWrapper/ViewWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Form/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/UsersProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AddUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study-buddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-buddy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/Button.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/DeleteButton/DeleteButton.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Average/Average.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Average/Average.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/RouterLink/RouterLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/StyledTitle/StyledTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Title/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/ViewWrapper/ViewWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ViewWrapper/ViewWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Form/Form.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Root.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.styles.js" afterDir="false" />
     </list>
@@ -76,17 +79,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/atoms/" />
-      <recent name="$PROJECT_DIR$/src/components/atoms/Button/Grade" />
-      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/templates/MainTemplate" />
       <recent name="$PROJECT_DIR$/src/components/organisms" />
       <recent name="$PROJECT_DIR$/src/components/molecules" />
+      <recent name="$PROJECT_DIR$/src/components/atoms/" />
+      <recent name="$PROJECT_DIR$/src/components/atoms/Button/Grade" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +104,9 @@
       <workItem from="1648660566819" duration="3767000" />
       <workItem from="1648708212386" duration="50000" />
       <workItem from="1648748018767" duration="4359000" />
-      <workItem from="1648821362703" duration="5023000" />
+      <workItem from="1648821362703" duration="5173000" />
+      <workItem from="1648842554550" duration="3290000" />
+      <workItem from="1649007570861" duration="4325000" />
     </task>
     <servers />
   </component>
