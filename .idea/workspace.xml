@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/UsersProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/AddUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study-buddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-buddy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Average/Average.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Average/Average.styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/RouterLink/RouterLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/StyledTitle/StyledTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Title/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/ViewWrapper/ViewWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ViewWrapper/ViewWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Form/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
@@ -92,6 +77,27 @@
       <recent name="$PROJECT_DIR$/src/components/atoms/Button/Grade" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Input With Button.Properly handles value change" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/molecules/FormField/FormField.test.js" />
+      <test-names>
+        <test-name value="Input With Button" />
+        <test-name value="Properly handles value change" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Input With Button.Properly handles value change" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,7 +112,7 @@
       <workItem from="1648748018767" duration="4359000" />
       <workItem from="1648821362703" duration="5173000" />
       <workItem from="1648842554550" duration="3290000" />
-      <workItem from="1649007570861" duration="4325000" />
+      <workItem from="1649007570861" duration="8236000" />
     </task>
     <servers />
   </component>

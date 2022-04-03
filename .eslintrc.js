@@ -3,13 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    jest: true,
   },
   plugins: ['react', 'prettier'],
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': ['warn'],
   },
