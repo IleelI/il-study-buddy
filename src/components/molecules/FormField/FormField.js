@@ -14,18 +14,20 @@ const Wrapper = styled.div`
   }
 `;
 
-const FormField = ({ onChange, value, label, name, id, type = 'text' }) => {
+// eslint-disable-next-line react/display-name
+const FormField = ({ onChange, value, isChecked, label, name, id, type = 'text' }) => {
   return (
     <Wrapper>
       <Label htmlFor={id}>{label}</Label>
-      <Input name={name} id={id} type={type} value={value} onChange={onChange} data-testid={label} />
+      <Input name={name} id={id} type={type} value={value} checked={isChecked} onChange={onChange} data-testid={label} />
     </Wrapper>
   );
 };
 
 FormField.propTypes = {
   onChange: PropTypes.func.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]).isRequired,
+  isChecked: PropTypes.bool,
   label: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,

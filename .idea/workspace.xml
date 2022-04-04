@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useWindowSize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study-buddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-buddy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +114,7 @@
       <workItem from="1648821362703" duration="5173000" />
       <workItem from="1648842554550" duration="3290000" />
       <workItem from="1649007570861" duration="8236000" />
+      <workItem from="1649093197318" duration="5600000" />
     </task>
     <servers />
   </component>
