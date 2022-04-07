@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useWindowSize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study-buddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study-buddy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AddUser.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="PluginDummyText.Genre" value="latin" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,17 +73,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/templates/MainTemplate" />
       <recent name="$PROJECT_DIR$/src/components/organisms" />
       <recent name="$PROJECT_DIR$/src/components/molecules" />
       <recent name="$PROJECT_DIR$/src/components/atoms/" />
-      <recent name="$PROJECT_DIR$/src/components/atoms/Button/Grade" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +122,9 @@
       <workItem from="1648821362703" duration="5173000" />
       <workItem from="1648842554550" duration="3290000" />
       <workItem from="1649007570861" duration="8236000" />
-      <workItem from="1649093197318" duration="5600000" />
+      <workItem from="1649093197318" duration="5935000" />
+      <workItem from="1649182153771" duration="5384000" />
+      <workItem from="1649187556700" duration="1951000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,21 @@ import AddUser from './AddUser';
 import Dashboard from './Dashboard';
 
 describe('Add user', () => {
-  it('Renders the component', () => {
+  it('Adds new user to the list', () => {
+    renderWithProviders(
+      <>
+        <AddUser />
+        <Dashboard />
+      </>
+    );
+    fireEvent.change(screen.getByTestId('Name'), { target: { value: 'Robert' } });
+    fireEvent.change(screen.getByTestId('Attendance'), { target: { value: '55%' } });
+    fireEvent.change(screen.getByTestId('Average'), { target: { value: '4.5' } });
+    fireEvent.click(screen.getByTestId('Consent'));
+    fireEvent.click(screen.getByText('Add'));
+    screen.getByText('Robert');
+  });
+  it('Prevents adding new user if consent is not checked', () => {
     renderWithProviders(
       <>
         <AddUser />
@@ -18,6 +32,7 @@ describe('Add user', () => {
     fireEvent.change(screen.getByTestId('Attendance'), { target: { value: '55%' } });
     fireEvent.change(screen.getByTestId('Average'), { target: { value: '4.5' } });
     fireEvent.click(screen.getByText('Add'));
-    screen.getByText('Robert');
+    const newUser = screen.queryByText('Robert');
+    expect(newUser).not.toBeInTheDocument();
   });
 });
