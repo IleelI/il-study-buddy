@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
 import { StyledList } from './UsersList.styles';
 import { Title } from 'components/atoms/Title/Title';
-import { UsersContext } from 'providers/UsersProvider';
+import PropTypes from 'prop-types';
+import { UserShape } from '../../../types/types';
 
-const UsersList = () => {
-  const { users } = useContext(UsersContext);
+const UsersList = ({ users = [] }) => {
   return (
     <>
       <Title>Students list</Title>
@@ -16,6 +16,10 @@ const UsersList = () => {
       </StyledList>
     </>
   );
+};
+
+UsersList.propTypes = {
+  users: PropTypes.arrayOf(PropTypes.shape(UserShape)),
 };
 
 export default UsersList;

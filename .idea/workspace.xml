@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/templates/NewsSection/NewsSection.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/data/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/data/groups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/data/students.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/data/teachers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/handlers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/MainTemplate/MainTemplate.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AddUser.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AddUser.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/UsersProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/UsersProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +85,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/templates/MainTemplate" />
@@ -125,6 +135,8 @@
       <workItem from="1649093197318" duration="5935000" />
       <workItem from="1649182153771" duration="5384000" />
       <workItem from="1649187556700" duration="1951000" />
+      <workItem from="1649332480506" duration="3889000" />
+      <workItem from="1649405574585" duration="6214000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,6 @@ const Wrapper = styled.div`
   }
 `;
 
-// eslint-disable-next-line react/display-name
 const FormField = ({ onChange, value, isChecked, label, name, id, type = 'text' }) => {
   return (
     <Wrapper>
