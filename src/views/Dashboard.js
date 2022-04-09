@@ -1,36 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import axios from 'axios';
+import { Navigate, useParams } from 'react-router-dom';
 import { ViewWrapper } from 'components/molecules/ViewWrapper/ViewWrapper';
-import { Wrapper, GroupNavigation, GroupLink, GroupTitle, GroupAlert } from './Dashboard.styles.js';
-import UsersList from 'components/organisms/UsersList/UsersList';
+import { Wrapper, GroupNavigation, GroupLink, GroupTitle } from './Dashboard.styles.js';
+import StudentsList from 'components/organisms/StudentsList/StudentsList';
+import { useStudents } from '../hooks/useStudents';
 
 const Dashboard = () => {
-  const [students, setStudents] = useState([]);
   const [groups, setGroups] = useState([]);
+  const { getGroups } = useStudents();
   const { id } = useParams();
 
   useEffect(() => {
-    axios
-      .get('/groups')
-      .then(({ data }) => {
-        setGroups(data.groups);
-      })
-      .catch((e) => {
-        console.error(e);
-      });
-  }, []);
+    (async () => {
+      const groups = await getGroups();
+      setGroups(groups);
+    })();
+  }, [getGroups]);
 
-  useEffect(() => {
-    axios
-      .get(`/students/${id}`)
-      .then(({ data }) => {
-        setStudents(data.matchingStudents);
-      })
-      .catch((e) => {
-        console.error(e);
-      });
-  }, [id, groups]);
+  if (!id && groups.length > 0) return <Navigate replace to={`/group/${groups[0]}`} />;
 
   return (
     <Wrapper>
@@ -42,9 +29,8 @@ const Dashboard = () => {
           </GroupLink>
         ))}
       </GroupNavigation>
-      {groups.filter((group) => group === id).length !== 0 ? null : <GroupAlert>Group not found!</GroupAlert>}
       <ViewWrapper>
-        <UsersList users={students} />
+        <StudentsList />
       </ViewWrapper>
     </Wrapper>
   );
