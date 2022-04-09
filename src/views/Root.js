@@ -5,7 +5,6 @@ import GlobalStyle from 'assets/styles/globalStyle';
 import { theme } from 'assets/styles/theme';
 import { Wrapper } from './Root.styles';
 import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
-import AddUser from 'views/AddUser';
 import Dashboard from 'views/Dashboard';
 
 const Root = () => {
@@ -34,7 +33,6 @@ const Root = () => {
               <Route path=":id" element={<Dashboard />} />
               <Route path="" element={<Dashboard />} />
             </Route>
-            <Route path="/add-user" element={<AddUser />} />
           </Route>
         </Routes>
       </ThemeProvider>

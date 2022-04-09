@@ -5,7 +5,7 @@ import { Wrapper, StyledAverage, StyledInfo } from './UsersListItem.styles';
 import DeleteButton from 'components/atoms/DeleteButton/DeleteButton';
 import { UsersContext } from 'providers/UsersProvider';
 
-const UsersListItem = ({ userData: { name, average, attendance = '0%' } }) => {
+const StudentsListItem = ({ studentData: { name, average, attendance = '0%' } }) => {
   const { handleDeleteUser } = useContext(UsersContext);
   return (
     <Wrapper>
@@ -21,8 +21,8 @@ const UsersListItem = ({ userData: { name, average, attendance = '0%' } }) => {
   );
 };
 
-UsersListItem.propTypes = {
-  userData: PropTypes.shape(UserShape),
+StudentsListItem.propTypes = {
+  studentData: PropTypes.shape(UserShape),
 };
 
-export default UsersListItem;
+export default StudentsListItem;

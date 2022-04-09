@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mocks/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mocks/data/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mocks/data/groups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mocks/data/students.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mocks/data/teachers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mocks/handlers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/FormField/FormField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/UsersProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/UsersProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +64,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.20525569" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -96,7 +81,7 @@
       <recent name="$PROJECT_DIR$/src/components/atoms/" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.Search Bar.Hides search results after removing input value">
     <configuration name="Input With Button.Properly handles value change" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -111,8 +96,23 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Search Bar.Hides search results after removing input value" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" />
+      <test-names>
+        <test-name value="Search Bar" />
+        <test-name value="Hides search results after removing input value" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Search Bar.Hides search results after removing input value" />
         <item itemvalue="Jest.Input With Button.Properly handles value change" />
       </list>
     </recent_temporary>
@@ -136,7 +136,12 @@
       <workItem from="1649182153771" duration="5384000" />
       <workItem from="1649187556700" duration="1951000" />
       <workItem from="1649332480506" duration="3889000" />
-      <workItem from="1649405574585" duration="6214000" />
+      <workItem from="1649405574585" duration="6362000" />
+      <workItem from="1649529683358" duration="6135000" />
+      <workItem from="1649536257059" duration="203000" />
+      <workItem from="1649536469146" duration="21000" />
+      <workItem from="1649536498372" duration="54000" />
+      <workItem from="1649618090158" duration="3513000" />
     </task>
     <servers />
   </component>
