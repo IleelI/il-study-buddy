@@ -23,7 +23,6 @@ describe('Search Bar', () => {
     fireEvent.change(input, { target: { value: 'ad' } });
     await screen.findByText(/Adam Romański/);
   });
-
   it('Hides search results after removing input value', async () => {
     render(<SearchBar />);
     const input = screen.getByPlaceholderText('Search');

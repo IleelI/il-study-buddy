@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b514864c-6d50-4512-a3e3-69f37d4d8782" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/renderWithProviders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-utils.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useStudents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/UsersListItem/UsersListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/UsersListItem/StudentsListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SearchBar/SearchBar.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/StudentsList/StudentsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/UsersList/UsersList.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/StudentsList/StudentsList.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useWindowSize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocks/handlers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/handlers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AddUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AddUser.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Root.js" afterDir="false" />
+>>>>>>> c5791a7f21178c11daa494f239080b98c7ce1f1d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +159,15 @@
       <workItem from="1649187556700" duration="1951000" />
       <workItem from="1649332480506" duration="3889000" />
       <workItem from="1649405574585" duration="6362000" />
+<<<<<<< HEAD
       <workItem from="1649529683358" duration="6135000" />
       <workItem from="1649536257059" duration="203000" />
       <workItem from="1649536469146" duration="21000" />
       <workItem from="1649536498372" duration="54000" />
       <workItem from="1649618090158" duration="3513000" />
+=======
+      <workItem from="1649529683358" duration="6099000" />
+>>>>>>> c5791a7f21178c11daa494f239080b98c7ce1f1d
     </task>
     <servers />
   </component>
