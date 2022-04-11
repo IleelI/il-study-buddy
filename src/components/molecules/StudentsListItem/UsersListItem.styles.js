@@ -29,7 +29,7 @@ export const StyledAverage = styled.div`
   background: ${({ theme, average }) => {
     if (average > 4) return theme.colors.success;
     if (average > 3) return theme.colors.warning;
-    if (average > 2) return theme.colors.error;
+    if (average >= 2) return theme.colors.error;
     return theme.colors.grey;
   }};
 `;
