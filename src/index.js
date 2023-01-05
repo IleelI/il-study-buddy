@@ -7,10 +7,18 @@ import 'assets/styles/fonts.css';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-worker.start().then(() => {
+if (process.env.NODE_ENV === 'development') {
+  worker.start().then(() => {
+    root.render(
+      <React.StrictMode>
+        <Root />
+      </React.StrictMode>
+    );
+  });
+} else {
   root.render(
     <React.StrictMode>
       <Root />
     </React.StrictMode>
   );
-});
+}
