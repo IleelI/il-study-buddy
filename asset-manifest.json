@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/il-study-buddy/static/css/main.28c8b3b2.css",
+    "main.js": "/il-study-buddy/static/js/main.345f8e15.js",
+    "static/media/delete-icon.svg": "/il-study-buddy/static/media/delete-icon.cc11e9ca7a11a52eac5f03b8cd754d38.svg",
+    "index.html": "/il-study-buddy/index.html",
+    "main.345f8e15.js.map": "/il-study-buddy/static/js/main.345f8e15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28c8b3b2.css",
+    "static/js/main.345f8e15.js"
+  ]
+}
